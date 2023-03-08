@@ -439,6 +439,7 @@ export const TOKEN_CONTRACT_ABI = [
     type: "function",
   },
 ];
+
 export const NFT_CONTRACT_ABI = [
   {
     inputs: [
@@ -1000,6 +1001,7 @@ export const NFT_CONTRACT_ABI = [
     type: "function",
   },
 ];
+
 export const REGISTERY_CONTRACT_ABI = [
   {
     inputs: [],
@@ -1226,6 +1228,7 @@ export const REGISTERY_CONTRACT_ABI = [
     type: "function",
   },
 ];
+
 export const DAO_CONTRACT_ABI = [
   {
     inputs: [
@@ -1871,6 +1874,7 @@ export const DAO_CONTRACT_ABI = [
     type: "function",
   },
 ];
+
 export const DAOFUND_CONTRACT_ABI = [
   {
     inputs: [],
@@ -2230,6 +2234,7 @@ export const DAOFUND_CONTRACT_ABI = [
     type: "receive",
   },
 ];
+
 export const FUNDMANAGER_CONTRACT_ABI = [
   {
     inputs: [
@@ -2739,6 +2744,7 @@ export const FUNDMANAGER_CONTRACT_ABI = [
     type: "function",
   },
 ];
+
 export const PROPFUND_CONTRACT_ABI = [
   {
     inputs: [
