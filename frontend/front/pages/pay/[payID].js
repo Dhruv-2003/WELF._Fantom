@@ -83,7 +83,7 @@ const Pay = () => {
             className="bg-blue-500 px-10 py-3 mt-10 text-white rounded-xl text-xl"
             onClick={() => pay()}
           >
-            Pay {payable ? payable : 0} BIT
+            Pay {payable ? payable : 0} FTM
           </button>
         )}
       </div>

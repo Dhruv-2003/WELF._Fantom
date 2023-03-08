@@ -67,7 +67,8 @@ const Mainpage = () => {
                 <div className="w-full py-4 4xl:py-16 px-10 border bg-neutral-100 rounded-xl flex flex-col items-center border-indigo-500">
                   <Image src={ipfs} height={400} width={400} alt="hello" />
                   <p className="xl:text-xl 4xl:text-4xl lg:text-lg">
-                    We provide hassle free donations with Mantle Chain and all the data stored on IPFS which makes the data more secure.
+                    We provide hassle free donations with Fantom Chain and all
+                    the data stored on IPFS which makes the data more secure.
                   </p>
                 </div>
               </div>
@@ -134,7 +135,24 @@ const Mainpage = () => {
                     </div>
                     <div className="text-center mt-2">
                       <p className="text-ellipsis lg:w-[300px] 3.5xl:w-[450px] 4xl:w-[600px] line-clamp-2">
-                      Turkey-Syria earthquake live updates: Magnitude 5.2 quake strikes central Turkey, death toll exceeds 46,000. More than 45,000 people have been killed in the earthquake that struck Turkey and Syria. The toll is expected to soar with some 264,000 apartments in Turkey destroyed and many still missing in the country’s worst modern disaster. While many international rescue teams have left the vast quake zone, domestic teams continued to search through flattened buildings on Saturday hoping to find more survivors who defied the odds. Experts say most rescues occur in the 24 hours following an earthquake. The count is expected to grow and more people are going to go homless. This is the time when the people needs our most help , and the more support and rescue we could reach out to people , the better it would be . The people are in dire need of daily essentials and shelters which could be provided from them.
+                        Turkey-Syria earthquake live updates: Magnitude 5.2
+                        quake strikes central Turkey, death toll exceeds 46,000.
+                        More than 45,000 people have been killed in the
+                        earthquake that struck Turkey and Syria. The toll is
+                        expected to soar with some 264,000 apartments in Turkey
+                        destroyed and many still missing in the country’s worst
+                        modern disaster. While many international rescue teams
+                        have left the vast quake zone, domestic teams continued
+                        to search through flattened buildings on Saturday hoping
+                        to find more survivors who defied the odds. Experts say
+                        most rescues occur in the 24 hours following an
+                        earthquake. The count is expected to grow and more
+                        people are going to go homless. This is the time when
+                        the people needs our most help , and the more support
+                        and rescue we could reach out to people , the better it
+                        would be . The people are in dire need of daily
+                        essentials and shelters which could be provided from
+                        them.
                       </p>
                     </div>
                     <div className="text-center mt-2">
