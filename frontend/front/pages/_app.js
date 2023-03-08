@@ -12,24 +12,24 @@ import Navbar from "../components/navbar";
 import { useRouter } from "next/router";
 import { AuthProvider } from "../auth/authContext";
 
-const mantleTestnet = {
-  id: 5001,
-  name: "Mantle testnet",
-  network: "Mantle testnet",
+const fantomTestnet = {
+  id: 4002,
+  name: "Fantom testnet",
+  network: "Fantom testnet",
   nativeCurrency: {
     decimals: 18,
-    name: "Test BIT",
-    symbol: "BIT",
+    name: "Test FTM",
+    symbol: "FTM",
   },
   rpcUrls: {
     default: {
-      http: ["https://rpc.testnet.mantle.xyz/"],
+      http: ["https://rpc.ankr.com/fantom_testnet"],
     },
   },
   blockExplorers: {
     default: {
-      name: "Mantle Explorer",
-      url: "https://explorer.testnet.mantle.xyz",
+      name: "Fantom Explorer",
+      url: "https://testnet.ftmscan.com",
     },
   },
   testnet: true,
