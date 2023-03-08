@@ -157,7 +157,7 @@ const SpecificProposal = () => {
                     <video
                       src={proposalData.video}
                       id="my-video"
-                      class="video-js"
+                      className="video-js"
                       controls
                       preload="auto"
                       width="640"
@@ -204,10 +204,16 @@ const SpecificProposal = () => {
                       </p>
                       <p className="text-center text-2xl mt-7">Vote</p>
                       <div className="items-center mt-7 mx-auto flex flex-col justify-center">
-                        <button className="mx-3 px-10 py-3 bg-white rounded-xl hover:bg-slate-100">
+                        <button
+                          className="mx-3 px-10 py-3 bg-white rounded-xl hover:bg-slate-100"
+                          onClick={() => vote(0)}
+                        >
                           Yes
                         </button>
-                        <button className="mx-3 px-10 py-3 bg-white rounded-xl hover:bg-slate-100 mt-5">
+                        <button
+                          className="mx-3 px-10 py-3 bg-white rounded-xl hover:bg-slate-100 mt-5"
+                          onClick={() => vote(0)}
+                        >
                           No
                         </button>
                       </div>

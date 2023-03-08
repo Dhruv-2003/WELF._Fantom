@@ -16,7 +16,7 @@ import {
 import { ethers } from "ethers";
 import { Spinner } from "@chakra-ui/react";
 import { useRouter } from "next/router";
-import { useToast } from '@chakra-ui/react'
+import { useToast } from "@chakra-ui/react";
 
 // Proposal Status
 // 0-> ACTIVE
@@ -45,9 +45,9 @@ const Proposal = () => {
   });
   const [files, setFiles] = useState([]);
   const [videoFile, setVideoFile] = useState([]);
-  const [loading, setLoading] = useState(false)
+  const [loading, setLoading] = useState(false);
   const [ipfsLink, setIpfsLink] = useState("");
-  const router = useRouter()
+  const router = useRouter();
   const { address, isConnected } = useAccount();
   const provider = useProvider();
   const { data: signer } = useSigner();
@@ -90,8 +90,8 @@ const Proposal = () => {
           setProposalForm={setProposalForm}
           imageFile={files}
           setImageFile={setFiles}
-          videoInput = {videoFile}
-          setVideoInput = {setVideoFile}
+          videoInput={videoFile}
+          setVideoInput={setVideoFile}
         />
       );
     }
@@ -103,7 +103,7 @@ const Proposal = () => {
   const uploadData = async () => {
     try {
       /// Image upload
-      setLoading(true)
+      setLoading(true);
       if (!files) console.log("No Image file added");
       // console.log(files);
       const imagecid = await StoreContent(files);
@@ -145,13 +145,13 @@ const Proposal = () => {
       console.log("Proposal Added to the contract");
       setLoading(false);
       toast({
-        title: 'Proposal Created.',
+        title: "Proposal Created.",
         description: "We've created your account for you.",
-        status: 'success',
+        status: "success",
         duration: 4000,
         isClosable: true,
-      })
-      router.push("/campaign")
+      });
+      router.push("/proposals");
     } catch (error) {
       console.log(error);
     }
@@ -204,7 +204,9 @@ const Proposal = () => {
                 }
               }}
             >
-              {page == formTitles.length - 1 ? `${loading ? "loading..." : "Submit"}` : "next"}
+              {page == formTitles.length - 1
+                ? `${loading ? "loading..." : "Submit"}`
+                : "next"}
             </button>
           </div>
         </div>
