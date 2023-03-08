@@ -68,7 +68,7 @@ const Pay = () => {
         <p className="text-black text-5xl">
           Donate for {campaignName ? campaignName : "proposal"}
         </p>
-        <p className="text-black text-3xl mt-10">Enter Amount (in BIT)</p>
+        <p className="text-black text-3xl mt-10">Enter Amount (in FTM)</p>
         <input
           type="number"
           className="border border-blue-400 xl:py-2 py-1 mt-5 rounded-md px-4"
