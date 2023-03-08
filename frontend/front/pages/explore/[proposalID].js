@@ -157,7 +157,7 @@ const SpecificProposal = () => {
                     <video
                       src={proposalData.video}
                       id="my-video"
-                      className="video-js"
+                      class="video-js"
                       controls
                       preload="auto"
                       width="640"
