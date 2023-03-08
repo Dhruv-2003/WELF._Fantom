@@ -143,7 +143,7 @@ contract WelfFunds is Ownable {
 
         stakedAmount -= amount;
         // send out the Staked Amount back to the User
-        (bool success, ) = _userAddress.call{value: amount}("");
+        (success, ) = _userAddress.call{value: amount}("");
         require(success, "Return failed");
         return success;
     }
