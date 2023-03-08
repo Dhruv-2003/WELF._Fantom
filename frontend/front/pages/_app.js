@@ -36,7 +36,7 @@ const fantomTestnet = {
 };
 
 const { chains, provider } = configureChains(
-  [mantleTestnet],
+  [fantomTestnet],
   [publicProvider()]
 );
 
